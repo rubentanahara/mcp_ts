@@ -1,10 +1,10 @@
 {
   "name": "mcp",
-  "module": "main.ts",
+  "module": "index.ts",
   "type": "module",
   "private": true,
   "scripts": {
-    "start:server": "npx -y tsx main.ts",
+    "start:server": "npx -y tsx index.ts",
     "start:inspector": "npx -y @modelcontextprotocol/inspector",
     "start:dev": "concurrently \"npm run start:server\" \"npm run start:inspector\""
   },
